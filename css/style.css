@@ -1,0 +1,293 @@
+/*======Header section======*/
+
+.header_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 103px 30px 103px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+
+}
+
+
+
+
+.logo_box img {
+    width: 100px;
+}
+
+
+
+header nav ul .change {
+    color: #065666;
+}
+
+
+
+.nav_arrow {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+
+.header_btn a {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.bars {
+    font-size: 30px;
+    display: none;
+}
+
+/*========Hero section=======*/
+
+.hero_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.hero_self {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    padding: 20px 0 10px 0;
+}
+
+
+.hero_self > h2 {
+    font-size: 64px;
+    line-height: 87.42px;
+}
+
+.hero_self > p {
+    font-size: 23.5px;
+    line-height: 43.2px;
+    font-weight: 500;
+}
+
+
+.hero_btn {
+    display: flex;
+    gap: 30px;
+}
+.hero_btn > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero_image_card {
+    width: 1260px;
+}
+
+
+/* =======Main Section======*/
+.financial_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.financial_self {
+    text-align: center;
+    margin: 20px 0 10px 0;
+    width: 77%;
+}
+
+.financial_self > h2 {
+    font-size: 32px;
+    line-height: 43.71px;
+    font-weight: 800;
+}
+
+.financial_self > p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 10px 0 20px 0;
+}
+
+
+.financial_image_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+
+.financial_image_cards img {
+
+    background-color: #F9F9F9;
+}
+
+
+/*=========Valutico=====*/
+
+
+.valutico_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 80px 20px 80px;
+    background-color: #111111;
+
+}
+
+.valutico_self {
+    text-align: center;
+    width: 55%;
+}
+
+.valutico_self h2 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 54.64%;
+    color: #FFFFFF;
+    padding: 20px 0 0 0;
+}
+
+.valutico_self p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #D7D7D7;
+    padding: 20px 0 20px 0;
+
+}
+
+.valutico_article {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+
+.valutico_article_items  h2 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32.78px;
+    color: #FFFFFF;
+}
+
+
+.valutico_article_items p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #D7D7D7;
+}
+
+
+
+/*=======Valuation=======*/
+
+
+.valuation_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 20px 0;
+}
+
+.valuation_self {
+    text-align: center;
+    width: 70%;
+    padding: 50px 0 50px 0;
+}
+
+.valuation_self h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.71px;
+    color: #373737;
+}
+
+.valuation_self p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #373737;
+}
+
+.valuation_article_box {
+    display: flex;
+    padding: 0 100px 0 100px;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.valuation_article,
+.valuation_article_image {
+    max-width: 600px;
+}
+
+.valuation_article {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.valuation_article_items {
+    width: 320px;
+    padding: 10px 0 10px 0;
+}
+
+.valuation_article_items h2 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32.78px;
+    color: #373737;
+}
+
+.valuation_article_items p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #373737;
+}
+
+.valuation_article_image img {
+    width: 600px;
+}
+
+
+
+/*======Footer=====*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+
+footer a {
+    padding: 15px 50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

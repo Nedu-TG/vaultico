@@ -1,0 +1,472 @@
+
+
+/*=======For Tablets======*/
+
+@media only screen and (max-width:900px) and (min-width: 500px){
+    .header_btn {
+        display: none;
+    }
+
+    .header_box {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 50px 30px 50px;
+    }
+
+    
+    .hero_self {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 70%;
+        padding: 20px 0 10px 0;
+    }
+    
+    
+    .hero_self > h2 {
+        font-size: 40px;
+        line-height: 64px;
+    }
+    
+    .hero_self > p {
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    
+    
+    .hero_btn {
+        display: flex;
+        gap: 30px;
+    }
+    .hero_btn > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .hero_image_card {
+        width: 754px;
+    }
+    .hero_image_card img {
+        width: 754px;
+    }
+
+    
+    .financial_self {
+        text-align: center;
+        margin: 20px 0 10px 0;
+        width: 77%;
+    }
+    
+    .financial_self > h2 {
+        font-size: 24px;
+    }
+    
+    .financial_self > p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        padding: 10px 0 20px 0;
+    }
+    
+    
+    .financial_image_cards {
+        padding-top: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+    }
+    
+    
+    .financial_image_cards img {
+       
+        background-color: #F9F9F9;
+    }
+
+    .valutico_section {
+        padding: 20px 10px 20px 10px;
+        background-color: #111111;
+    
+    }
+    
+    .valutico_self {
+        text-align: center;
+        width: 80%;
+    }
+    
+    .valutico_self h2 {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32.78%;
+        color: #FFFFFF;
+        padding: 20px 0 0 0;
+    }
+    
+    .valutico_self p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #D7D7D7;
+        padding: 20px 0 20px 0;
+    
+    }
+    
+    .valutico_article {
+      width: 100%;
+      display: block;
+
+    }
+    
+    .valutico_article_items  h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24.59px;
+        color: #FFFFFF;
+    }
+
+    .valutico_article_items {
+        padding-top: 30px;
+    }
+    
+    
+    .valutico_article_items p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #D7D7D7;
+    }
+
+    .valuation_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding: 10px 0 20px 0;
+    }
+    
+    .valuation_self {
+        text-align: center;
+        width: 70%;
+        padding: 50px 0 50px 0;
+    }
+    
+    .valuation_self h2 {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32.78px;
+        color: #373737;
+    }
+    
+    .valuation_self p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #373737;
+    }
+    
+    .valuation_article_box {
+        display: flex;
+        padding: 0 100px 0 100px;
+        gap: 80px;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .valuation_article,
+    .valuation_article_image {
+        max-width: 600px;
+    }
+    
+    .valuation_article {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .valuation_article_items {
+        width: 320px;
+        padding: 10px 0 10px 0;
+    }
+    
+    .valuation_article_items h2 {
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 24.59px;
+        color: #373737;
+    }
+    
+    .valuation_article_items p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #373737;
+    }
+    
+    .valuation_article_image img {
+        width: 369px;
+        height: 643px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        margin-top: 50px;
+        
+    }
+    
+    footer a {
+        padding: 15px 50px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+/*===== For Mobile=====*/
+
+@media only screen and (max-width:500px) and (min-width: 300px) {
+    .header_box {
+        display: flex;
+        padding: 30px 40px 30px 40px;
+    }
+    
+    header .burger {
+        display: none;
+    }
+
+    .logo_box img {
+        width: 118px;
+    }
+
+    .header_btn {
+        display: none;
+    }
+    .bars {
+        font-size: 30px;
+        display: block;
+    }
+
+    .hero_self {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 0 10px 0;
+    }
+    
+    
+    .hero_self > h2 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    .hero_self > p {
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    
+    
+    .hero_btn {
+        display: flex;
+        gap: 10px;
+    }
+    .hero_btn > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 15px;
+    }
+    
+    .hero_image_card {
+        width: 327px;
+    }
+    .hero_image_card img {
+        width: 327px;
+        height: 168px;
+    }
+
+    .financial_self {
+        text-align: center;
+        margin: 20px 0 10px 0;
+        width: 100%;
+    }
+    
+    .financial_self > h2 {
+        font-size: 20px;
+    }
+    
+    .financial_self > p {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 500;
+        padding: 10px 0 20px 0;
+    }
+    
+    
+    .financial_image_cards {
+        padding-top: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    
+    .financial_image_cards img {
+        width: 160px;
+        height: 62px;
+        background-color: #F9F9F9;
+    }
+
+    .valutico_section {
+        padding: 30px 30px 30px 30px;
+        background-color: #111111;
+    
+    }
+    
+    .valutico_self {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .valutico_self h2 {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 27.32%;
+        color: #FFFFFF;
+        padding: 20px 0 0 0;
+    }
+    
+    .valutico_self p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #D7D7D7;
+        padding: 20px 0 20px 0;
+    
+    }
+    
+    .valutico_article {
+      width: 100%;
+      display: block;
+
+    }
+    
+    .valutico_article_items  h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24.59px;
+        color: #FFFFFF;
+    }
+
+    .valutico_article_items {
+        padding-top: 30px;
+    }
+    
+    
+    .valutico_article_items p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #D7D7D7;
+    }
+
+    .valuation_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .valuation_self {
+        text-align: center;
+        width: 100%;
+        padding: 50px 0 50px 0;
+    }
+    
+    .valuation_self h2 {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 27.32px;
+        color: #373737;
+    }
+    
+    .valuation_self p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #373737;
+    }
+    
+    .valuation_article_box {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 100px 0 100px;
+        gap: 50px;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .valuation_article,
+    .valuation_article_image {
+        max-width: 600px;
+    }
+    
+    .valuation_article {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .valuation_article_items {
+        width: 320px;
+        padding: 10px 0 10px 0;
+        box-shadow: 1px 2px 1px rgba(124, 115, 115, 0.25);
+    }
+    
+    .valuation_article_items h2 {
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 24.59px;
+        color: #373737;
+    }
+    
+    .valuation_article_items p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #373737;
+    }
+    
+    .valuation_article_image img {
+        width: 329px;
+        height: 310px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding-bottom: 100px;
+        
+    }
+    
+    footer a {
+        padding: 15px 50px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
