@@ -248,9 +248,18 @@
     .header_btn {
         display: none;
     }
-    .bars {
+    #fa-show {
         font-size: 30px;
         display: block;
+    }
+
+    #fa-hide {
+        display: none;
+        font-size: 30px;
+    }
+
+    .burger_mobile {
+        display: none;
     }
 
     .hero_self {

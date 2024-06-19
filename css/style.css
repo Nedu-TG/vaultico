@@ -1,5 +1,11 @@
 /*======Header section======*/
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
 .header_box {
     display: flex;
     justify-content: space-between;
@@ -43,9 +49,37 @@ header nav ul .change {
     align-items: center;
 }
 
-.bars {
+#fa-show {
     font-size: 30px;
     display: none;
+}
+
+#fa-hide {
+    display: none;
+    font-size: 30px;
+}
+
+.burger_mobile {
+    display: none;
+    width: 100vw;
+    height: 80vh;
+    background: #065666;
+    top: 85px;
+    position: absolute;
+    left: 0;
+    z-index: 9;
+}
+
+.burger_mobile ul li a {
+    color: #fff;
+}
+
+.burger_mobile ul{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px;
+
 }
 
 /*========Hero section=======*/
