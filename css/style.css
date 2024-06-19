@@ -62,7 +62,7 @@ header nav ul .change {
 .burger_mobile {
     display: none;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background: #065666;
     top: 85px;
     position: absolute;
